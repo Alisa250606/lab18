@@ -1,0 +1,36 @@
+.footer {
+  background-color: #ffeef4;
+  padding: 30px 20px;
+  text-align: center;
+  border-top: 3px solid #ffc1d6;
+  font-family: "Poppins", sans-serif;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: center;
+}
+
+.footer-link {
+  color: #c84b7e;
+  font-weight: 600;
+  text-decoration: none;
+  font-size: 1.1rem;
+  display: flex;
+  align-items: center;
+  transition: all 0.3s ease;
+}
+
+.footer-link:hover {
+  color: #aa3e6b;
+  transform: scale(1.05);
+}
+
+.icon {
+  margin-right: 8px;
+}

@@ -1,0 +1,50 @@
+.my-future {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: "Segoe UI", sans-serif;
+    line-height: 1.6;
+  }
+  
+  .my-future h1 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+  }
+  
+  .my-future h2 {
+    color: #444;
+    margin-top: 25px;
+  }
+  
+  .my-future ol {
+    padding-left: 20px;
+  }
+  
+  .my-future blockquote {
+    border-left: 4px solid #00aaff;
+    padding-left: 15px;
+    font-style: italic;
+    color: #333;
+    margin: 20px 0;
+    background: #f9f9f9;
+  }
+  
+  .timeline {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .timeline li {
+    margin: 10px 0;
+    position: relative;
+    padding-left: 20px;
+  }
+  
+  .timeline li::before {
+    content: "•";
+    color: #00aaff;
+    font-weight: bold;
+    position: absolute;
+    left: 0;
+  }
+  
