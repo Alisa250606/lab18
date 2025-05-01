@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/lab18/static/css/main.37d01d3b.css",
-    "main.js": "/lab18/static/js/main.94a2cba2.js",
+    "main.js": "/lab18/static/js/main.992bb5a7.js",
     "static/media/mirgorod-1.jpg": "/lab18/static/media/mirgorod-1.ed5d8a6400c0cf5cf46e.jpg",
     "static/media/mirgorod5.jpg": "/lab18/static/media/mirgorod5.7711f9ce0c23347bba3e.jpg",
     "static/media/mirgorod3.jpg": "/lab18/static/media/mirgorod3.7190e26bfd0258dd2115.jpg",
@@ -10,10 +10,10 @@
     "static/media/mirgorod4.webp": "/lab18/static/media/mirgorod4.cb75aec9df91180a929f.webp",
     "index.html": "/lab18/index.html",
     "main.37d01d3b.css.map": "/lab18/static/css/main.37d01d3b.css.map",
-    "main.94a2cba2.js.map": "/lab18/static/js/main.94a2cba2.js.map"
+    "main.992bb5a7.js.map": "/lab18/static/js/main.992bb5a7.js.map"
   },
   "entrypoints": [
     "static/css/main.37d01d3b.css",
-    "static/js/main.94a2cba2.js"
+    "static/js/main.992bb5a7.js"
   ]
 }
