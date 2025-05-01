@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom"; // 🛠️ правильний імпорт
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import AboutMe from "./pages/AboutMe";
@@ -10,18 +10,18 @@ import "./index.css";
 function App() {
   return (
     <div className="app-container">
-      <Router>
+      <BrowserRouter basename="/lab18">
         <Header />
         <main>
           <Routes>
             <Route path="/about" element={<AboutMe />} />
             <Route path="/my-city" element={<MyCity />} />
             <Route path="/my-future" element={<MyFuture />} />
-            <Route path="*" element={<AboutMe />} />
+            <Route path="*" element={<AboutMe />} /> {/* fallback */}
           </Routes>
         </main>
         <Footer />
-      </Router>
+      </BrowserRouter>
     </div>
   );
 }
